@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  background-color: rgba(71, 25, 25, 0.719);
+}
+
+.pokemonTarolo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  gap: 5px;
+}
+
+.pokemonok {
+  position: static;
+  overflow: hidden;
+  padding: 5px;
+  font-size: 12pt;
+  padding-bottom: 30px;
+  border: 1px solid rgba(12, 12, 12, 0.747);
+  border-radius: 15px;
+  background-color: rgba(240, 230, 216, 0.815);
+}
+
+#keresesRendezes {
+  text-align: center;
+  font-size: 13pt;
+  font-weight: bold;
+}
+
+.pokemonok p {
+  font-size: 12pt;
+  padding: 3px 5px;
+}

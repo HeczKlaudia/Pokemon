@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/szerkezet.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script/aszinkron.js"></script>
+    <script src="script/pokemon.js"></script>
+    <script src="script/script.js"></script>
+    <script src="script/js.js"></script>
+    <title>Hecz Klaudi</title>
+  </head>
+  <body>
+    <form id="keresesRendezes">
+      <fieldset>
+        <legend>Keresési szempontok</legend>
+        <label for="nevkereses">Név szerint:</label>
+        <br />
+        <input type="text" id="nevkereses" name="nevkereses" />
+        <br />
+        <input type="button" id="nevkeresoGomb" value="keresés"></button>
+        <br />
+        <label for="kepessegkereses">Képesség szerint:</label>
+        <br />
+        <input type="text" id="kepessegkereses" name="kepessegkereses" />
+        <br />
+        <input type="button" id="kepessegkeresoGomb" value="keresés"></button>
+      </fieldset>
+    </form>
+    <div class="csatater">
+      
+    </div>
+    <div class="pokemonTarolo">
+      <div class="pokemonok">
+        <h3>Név</h3>
+        <img src="" alt="" />
+        <p class="kepessegek">Képességek</p>
+        <button class="csata">Csata!</button>
+        <p class="tegedValasztalak"></p>
+      </div>
+    </div>
+  </body>
+</html>
